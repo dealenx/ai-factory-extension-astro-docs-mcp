@@ -1,12 +1,12 @@
 {
-  "name": "ai-factory-extension-mcp-template",
+  "name": "ai-factory-extension-astro-docs-mcp",
   "version": "1.0.0",
-  "description": "Template: hello MCP server inside ai-factory extension",
+  "description": "Astro Docs MCP server as an ai-factory extension",
   "mcpServers": [
     {
-      "key": "playwright",
-      "template": "./mcp/playwright.json",
-      "instruction": "Playwright MCP: Install Chrome to use a web browser"
+      "key": "astro-docs",
+      "template": "./mcp/astro-docs.json",
+      "instruction": "Astro Docs MCP: provides access to the official Astro documentation"
     }
   ]
 }
